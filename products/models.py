@@ -12,7 +12,7 @@ class Product(models.Model):
 class ProductImage(models.Model):
     product = models.ForeignKey(Product)
     product_image_name = models.CharField(max_length=200)
-    product_image =  models.ImageField(upload_to='product_images')
+    product_image =  models.ImageField()
     def __unicode__(self):
     	return self.product_image_name
 
