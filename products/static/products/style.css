@@ -1,3 +1,6 @@
 body{
-  
+  background-image:url('/media/oasisbg.png');
+  background-repeat: no-repeat;
 }
+
+.logo{float:right;}
